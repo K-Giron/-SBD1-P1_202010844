@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asocian" directorySegmentName="seg_0" id="C68294B4-A0F8-DC3E-78D9-F8B95953A224">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 03:42:48 UTC</createdTime>
+<ownerDesignName>modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<sourcePk>290054C2-F08F-B8CA-4857-FFDC93D43144</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FDC0C58E-67CB-3A03-26D3-69558EF6BEC3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0EEE3720-8221-56E6-3488-CFA655466B2B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
