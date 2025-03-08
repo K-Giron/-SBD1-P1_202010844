@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDA80716-A35F-8E3A-DB07-01F506B1514B" name="PRODUCTO">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>41BC8FEB-3ED9-DB91-9588-547281889FD6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producto" id="97C9F799-AFEE-04A7-4CEF-5856E42845CE">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>9AB73B01-9AEA-7F6C-DDEE-9891CE288303</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sku" id="D925688F-DBF9-C4FB-7F82-20FFAB8CD298">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>219DD9ED-ADF7-2DA6-7063-A92BCA065364</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B29D1E68-D40D-35BE-0229-AC4C0D87A849">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>8EB32868-200A-29A6-42EE-E0EBAB859E6D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="AC5126E6-F00A-0A8B-58D3-741332D04734">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>5CD3569E-2DB0-51EA-3410-CFA347F49982</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="3D69495D-631B-A4C7-079E-384050655DA3">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>6097B2BC-825D-CFC8-4310-316ABB8F7492</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="slug" id="45BB2718-3228-C4F6-C9EC-342E43D6D77F">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>87687933-A4C0-DA83-6445-486603A3D28C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="D91F1D0D-7ABE-819E-624D-BCFFB05D0113">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>3031B84A-532C-586B-8CFE-B740EB0A1BA2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creado" id="A38C8879-9999-2E81-4FD2-831AF134A8B2">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>7148BD0B-53D2-4154-7AF0-06A1AF0F2E7B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modificado" id="7003F2AB-F0FB-D494-F2E9-5028BFB32838">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>60FBF4A9-EFB6-5250-FE7F-67E0B12FA1B0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA_id_categoria" id="FBF0F4AC-8371-C560-795E-E9DEA87997C8">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>68C298C6-39F0-396F-F276-63AF348EA461</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED103F4E-EC57-1AF0-1CE5-AE6D76945C20" referredColumn="9B6E5913-40B5-B93E-41D1-C56CF5F2EB8C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E64CB49-A3C4-E9C7-9C76-13DABBCAAA2A" name="PRODUCTO_PK">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>AD211563-1005-35CB-45E7-C8FFD0971E9A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97C9F799-AFEE-04A7-4CEF-5856E42845CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A9B025E-CD14-DFD2-3773-3A1D18008A70" name="PRODUCTO_CATEGORIA_FK">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>D204D09B-7D27-2D4B-2BEF-17FA336D157C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBF0F4AC-8371-C560-795E-E9DEA87997C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

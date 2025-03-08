@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A2DF619-631C-7F78-7CF7-0072CA17FB8F" name="METODO_PAGO">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-04 17:03:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_metodo_pago" id="BC0CDE5B-7AF6-3C00-3338-8685EF3544CF">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-04 17:05:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="metodo_pago" id="414E42F9-2A0C-117F-91B7-6FD9AACE2D37">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-04 17:05:48 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creado" id="9D2D2CE0-4907-3723-3FEC-6F1DC817306E">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-04 17:06:10 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modificado" id="0FF02376-2CDA-38D8-BDAD-27C74B47F72E">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-04 17:06:37 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="C473C427-94DF-FBD2-36FF-C976CAE0E09F">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-04 17:06:56 UTC</createdTime>
+<generatorID>D5071A1B-25FD-9740-8BBA-C4CE050FD2DD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<referedAttribute>E4D55141-0C3B-5616-711C-593F51567C58</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nacional" id="895E911F-8365-89C4-7589-F67A59C46752">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-04 17:06:56 UTC</createdTime>
+<generatorID>D5071A1B-25FD-9740-8BBA-C4CE050FD2DD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<referedAttribute>11B520FD-9ED9-23B6-8CBE-402F57CF8731</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5F65DEFB-4980-FDDC-FED6-8E3B5C905F64" name="PAGO PK">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-04 17:05:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC0CDE5B-7AF6-3C00-3338-8685EF3544CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

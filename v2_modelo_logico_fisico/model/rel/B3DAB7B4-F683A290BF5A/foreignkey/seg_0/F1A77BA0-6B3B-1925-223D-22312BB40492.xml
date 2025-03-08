@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F1A77BA0-6B3B-1925-223D-22312BB40492" containerWithKeyObject="A9EA39E6-FCBA-C5E7-6D4B-349C84EE2F79" localFKIndex="A17107EC-8CFE-712A-9B0A-74B20FCAFE86" name="DETALLE_TRASLADO_TRASLADO_FK">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>137BDD2C-90FB-9FCB-0B53-5D124B8DF2DD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>TRASLADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>61446E58-31DC-ABA3-882D-1D0964AB797F</referredTableID>
+<keyObject>FFE2CBD2-B078-E2C5-496D-330B5EC336FC</keyObject>
+<referredKeyID>FFE2CBD2-B078-E2C5-496D-330B5EC336FC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_traslado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

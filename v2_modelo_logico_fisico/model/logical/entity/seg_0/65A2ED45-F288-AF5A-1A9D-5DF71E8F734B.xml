@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65A2ED45-F288-AF5A-1A9D-5DF71E8F734B" name="PRODUCTO_DEVOLUCION">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:03:52 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_producto_devolucion" id="724647A8-D645-C722-19E0-27F284FD5A19">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:03:58 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="087819C3-DC86-0DA5-96E0-46A295DD9D6D">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:04:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="C622F8C0-AA8F-EBBF-4AB8-B48D154B0289">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:05:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="solicitado" id="B2BE4249-2D01-A839-0E2A-36924B6CCB4A">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:05:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creado" id="C75E3096-FAFA-BFB4-A505-19792622EE2F">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:05:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modificado" id="F877580D-6872-DDE9-902F-1B96F14C7FA3">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:05:59 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_producto" id="B6041584-D1DD-825F-3FAA-5772A61AC9E7">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:06:24 UTC</createdTime>
+<generatorID>F33E8A73-F701-5E8E-A796-138E40340FCA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9AB73B01-9AEA-7F6C-DDEE-9891CE288303</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3FB90FA9-5A81-58A5-7B39-D0CC005BF93B" name="PRODUCTO_DEVOLUCION PK">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:04:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>724647A8-D645-C722-19E0-27F284FD5A19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

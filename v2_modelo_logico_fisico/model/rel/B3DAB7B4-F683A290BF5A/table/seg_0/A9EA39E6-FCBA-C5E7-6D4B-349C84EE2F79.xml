@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9EA39E6-FCBA-C5E7-6D4B-349C84EE2F79" name="DETALLE_TRASLADO">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>6B1C5BF9-A3F1-41EB-1AA3-196AC9D359EA</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detalle_traslado" id="8B97BAA0-A6B8-167C-C0BC-7D89BD3215CF">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>F5E1217C-DDDA-6BE4-2428-3541F721CEAB</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="DBFAF6F8-920C-ACC9-CCB2-2F3EF9A75A67">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>A208D441-C0B9-0788-0369-16192D083626</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creado" id="8008E5B6-35AF-1294-CE7D-CF23072C0BE2">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>E5B52C00-FC46-0CB1-1C1F-FE9DC88B81D8</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modificado" id="CEEC2D70-38AB-E588-8104-D38C8D8AB456">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>0C0BBFC0-8B34-4AED-EE8F-8FAD9D3021CC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTO_id_producto" id="F1BB7A09-DB58-F668-349B-EBA589306676">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>19DD798D-6DA6-9D40-3839-D9F5A4275032</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE238290-2CEB-D7D2-E8D1-97CBC8E91D7B" referredColumn="97C9F799-AFEE-04A7-4CEF-5856E42845CE"/>
+</associations>
+</Column>
+<Column name="TRASLADO_id_traslado" id="1619868C-2EE7-40AC-7359-19A6CBEEC186">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>606C2054-435D-CB99-F64D-A880E2EDEEE6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1A77BA0-6B3B-1925-223D-22312BB40492" referredColumn="086109AD-1CAE-DBAB-D374-69B1ADD97C6C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5A61E6F-113F-87E7-C26C-F9FC55E03501" name="DETALLE_TRASLADO_PK">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>251FAE37-99A6-0486-7849-07717CDD0A69</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B97BAA0-A6B8-167C-C0BC-7D89BD3215CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A17107EC-8CFE-712A-9B0A-74B20FCAFE86" name="DETALLE_TRASLADO_TRASLADO_FK">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>137BDD2C-90FB-9FCB-0B53-5D124B8DF2DD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1619868C-2EE7-40AC-7359-19A6CBEEC186"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61DE9481-B772-2DE7-0C9A-32F9EC5CCAE6" name="DETALLE_TRASLADO_PRODUCTO_FK">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>D1E49A5D-17EE-A98A-E849-D79ACD4B70DF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1BB7A09-DB58-F668-349B-EBA589306676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

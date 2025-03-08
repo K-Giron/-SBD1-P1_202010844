@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5F07B934-D9A2-5219-CF8F-C56F310F6277" containerWithKeyObject="BE246C1B-14A0-DD5B-57CB-2A7F0E6E27E0" localFKIndex="096613F4-8EB7-7250-0DF6-B2844C3E7C43" name="ORDEN_ENVIO_FK">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-07 16:09:44 UTC</createdTime>
+<generatorID>FABFA17E-5966-972C-CBEA-72A1E04FE592</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>ENVIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>39DB6D2F-3C64-3905-7014-8BD7B688F949</referredTableID>
+<keyObject>EC01BEF3-3DF2-07A5-0E13-15F0D6D35D64</keyObject>
+<referredKeyID>EC01BEF3-3DF2-07A5-0E13-15F0D6D35D64</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_envio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

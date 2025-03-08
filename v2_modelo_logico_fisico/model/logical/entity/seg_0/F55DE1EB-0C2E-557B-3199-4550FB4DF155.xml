@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F55DE1EB-0C2E-557B-3199-4550FB4DF155" name="INVENTARIO">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:11:23 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_inventario" id="FFBE2BB7-2813-63C5-1DF5-718373D5665A">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:11:28 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="7576E630-4C66-C417-FF64-5868C9D0DBCC">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:11:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creado" id="10B7FBD3-6756-F80B-563F-2A91E0DECA42">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:12:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modificado" id="E83C14EE-E81A-BE1F-B593-3BA850480953">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:12:20 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_producto" id="4D958462-7B80-D846-5024-8169C2C437D1">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:12:41 UTC</createdTime>
+<generatorID>BCDA6758-9AA5-6EE4-9808-BE4D9C8EA864</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<referedAttribute>9AB73B01-9AEA-7F6C-DDEE-9891CE288303</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sede" id="30B59C28-DBA5-3DFE-1C11-B09694EBC804">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:13:17 UTC</createdTime>
+<generatorID>DE7329BE-4FF5-87E6-CC92-92AD6E0BE597</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<referedAttribute>4922F3A5-138E-6C4B-3D53-02B1B35AB083</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90BDAC22-303F-274B-ED23-4691B1D00E54" name="INVENTARIO PK">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:11:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FFBE2BB7-2813-63C5-1DF5-718373D5665A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

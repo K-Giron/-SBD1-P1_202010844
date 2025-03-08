@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B1C5BF9-A3F1-41EB-1AA3-196AC9D359EA" name="DETALLE_TRASLADO">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:23:10 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detalle_traslado" id="F5E1217C-DDDA-6BE4-2428-3541F721CEAB">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:23:22 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="A208D441-C0B9-0788-0369-16192D083626">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:24:13 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creado" id="E5B52C00-FC46-0CB1-1C1F-FE9DC88B81D8">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:24:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modificado" id="0C0BBFC0-8B34-4AED-EE8F-8FAD9D3021CC">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:24:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_producto" id="19DD798D-6DA6-9D40-3839-D9F5A4275032">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:25:12 UTC</createdTime>
+<generatorID>D1E49A5D-17EE-A98A-E849-D79ACD4B70DF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9AB73B01-9AEA-7F6C-DDEE-9891CE288303</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_traslado" id="606C2054-435D-CB99-F64D-A880E2EDEEE6">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:25:34 UTC</createdTime>
+<generatorID>137BDD2C-90FB-9FCB-0B53-5D124B8DF2DD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<referedAttribute>AA226698-A0EE-FCFA-D194-142E785C126F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="251FAE37-99A6-0486-7849-07717CDD0A69" name="MOVIMIENTO_PRODUCTO PK">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:24:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F5E1217C-DDDA-6BE4-2428-3541F721CEAB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

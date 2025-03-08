@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Registra" directorySegmentName="seg_0" id="E55541E5-F5D2-13E9-9864-D1C969825F71">
+<createdBy>kevin</createdBy>
+<createdTime>2025-03-05 04:00:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+</engineerTo>
+<sourcePk>AD211563-1005-35CB-45E7-C8FFD0971E9A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>41BC8FEB-3ED9-DB91-9588-547281889FD6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0EEE3720-8221-56E6-3488-CFA655466B2B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
