@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BFEBC2F-0F43-A078-6D8E-CA5549A64DC6" name="PRODUCTO_DEVOLUCION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BFEBC2F-0F43-A078-6D8E-CA5549A64DC6" name="PRODUCTOS_DEVOLUCIONES">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>65A2ED45-F288-AF5A-1A9D-5DF71E8F734B</generatorID>
@@ -39,7 +39,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="solicitado" id="E2C05D8E-80F1-F854-FD78-21C69E32E1D5">
@@ -78,7 +79,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PRODUCTO_id_producto" id="8B486B89-2AF2-5BD6-3869-8A12A89DCF21">
+<Column name="PRODUCTOS_id_producto" id="8B486B89-2AF2-5BD6-3869-8A12A89DCF21">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>B6041584-D1DD-825F-3FAA-5772A61AC9E7</generatorID>
@@ -108,7 +109,7 @@
 <colUsage columnID="09EA435F-056C-9710-7CC6-35B329121D3D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D1411EBD-3A82-B73A-F057-C282BA95F5AE" name="PRODUCTO_DEVOLUCION_PRODUCTO_FK">
+<ind_PK_UK id="D1411EBD-3A82-B73A-F057-C282BA95F5AE" name="PRODUCT_DEVOL_PRODUCT_FK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>F33E8A73-F701-5E8E-A796-138E40340FCA</generatorID>

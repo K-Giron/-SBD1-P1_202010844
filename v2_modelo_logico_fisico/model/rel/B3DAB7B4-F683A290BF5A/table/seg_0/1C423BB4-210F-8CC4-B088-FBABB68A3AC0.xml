@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C423BB4-210F-8CC4-B088-FBABB68A3AC0" name="METODO_PAGO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C423BB4-210F-8CC4-B088-FBABB68A3AC0" name="METODOS_PAGO">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>8A2DF619-631C-7F78-7CF7-0072CA17FB8F</generatorID>
 <ownerDesignName>model</ownerDesignName>
+<ordsAlias>metodo_pago</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -55,7 +56,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CLIENTE_id_cliente" id="23F38484-4742-3802-CFD7-F6A34BCC51C2">
+<Column name="CLIENTES_id_cliente" id="23F38484-4742-3802-CFD7-F6A34BCC51C2">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>C473C427-94DF-FBD2-36FF-C976CAE0E09F</generatorID>
@@ -70,7 +71,7 @@
 <colAssociation fkAssociation="18D0493B-59EE-9DE2-FD2F-AA94BB51517C" referredColumn="FE8C5CBD-6C5C-73AF-A7F9-AF2F6C2D642E"/>
 </associations>
 </Column>
-<Column name="CLIENTE_id_nacional" id="39940584-7DBE-B370-D054-F017D1CDB4F6">
+<Column name="CLIENTES_id_nacional" id="39940584-7DBE-B370-D054-F017D1CDB4F6">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>895E911F-8365-89C4-7589-F67A59C46752</generatorID>
@@ -87,7 +88,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4A8884C2-C62A-01B9-133D-E930C004CB8F" name="METODO_PAGO_PK">
+<ind_PK_UK id="4A8884C2-C62A-01B9-133D-E930C004CB8F" name="METODOS_PAGO_PK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>5F65DEFB-4980-FDDC-FED6-8E3B5C905F64</generatorID>
@@ -99,7 +100,7 @@
 <colUsage columnID="A7D472B3-828B-CBA3-FB2C-A955D09D751E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D06D5D2C-BDF2-C8F8-59F8-7D4C7A5C463F" name="METODO_PAGO_CLIENTE_FK">
+<ind_PK_UK id="D06D5D2C-BDF2-C8F8-59F8-7D4C7A5C463F" name="METODOS_PAGO_CLIENTES_FK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>D5071A1B-25FD-9740-8BBA-C4CE050FD2DD</generatorID>

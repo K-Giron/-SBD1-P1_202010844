@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B86E4180-B030-B234-6F87-464EE426A3BA" containerWithKeyObject="BE246C1B-14A0-DD5B-57CB-2A7F0E6E27E0" localFKIndex="875B6AC6-76FC-C454-C0B7-3385D8657A0D" name="ORDEN_CLIENTE_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B86E4180-B030-B234-6F87-464EE426A3BA" containerWithKeyObject="BE246C1B-14A0-DD5B-57CB-2A7F0E6E27E0" localFKIndex="875B6AC6-76FC-C454-C0B7-3385D8657A0D" name="ORDENES_CLIENTES_FK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>E0466EF1-EB16-B8F2-1D89-86AAA5DD17A7</generatorID>
 <ownerDesignName>model</ownerDesignName>
-<referredTableLongName>CLIENTE</referredTableLongName>
+<referredTableLongName>CLIENTES</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>982FF494-72B2-0E12-8AF4-435937DB87D6</referredTableID>
 <keyObject>A546B86B-1B1F-16D1-C69A-8ED41CE991C3</keyObject>

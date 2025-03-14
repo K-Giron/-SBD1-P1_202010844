@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ED103F4E-EC57-1AF0-1CE5-AE6D76945C20" containerWithKeyObject="FDA80716-A35F-8E3A-DB07-01F506B1514B" localFKIndex="5A9B025E-CD14-DFD2-3773-3A1D18008A70" name="PRODUCTO_CATEGORIA_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ED103F4E-EC57-1AF0-1CE5-AE6D76945C20" containerWithKeyObject="FDA80716-A35F-8E3A-DB07-01F506B1514B" localFKIndex="5A9B025E-CD14-DFD2-3773-3A1D18008A70" name="PRODUCTOS_CATEGORIAS_FK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>D204D09B-7D27-2D4B-2BEF-17FA336D157C</generatorID>
 <ownerDesignName>model</ownerDesignName>
-<referredTableLongName>CATEGORIA</referredTableLongName>
+<referredTableLongName>CATEGORIAS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>399BB400-4E06-33D1-8AD9-643C1126E071</referredTableID>
 <keyObject>A60046DE-6401-4973-05FA-E02D66850B6D</keyObject>

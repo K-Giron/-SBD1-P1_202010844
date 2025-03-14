@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE246C1B-14A0-DD5B-57CB-2A7F0E6E27E0" name="ORDEN">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE246C1B-14A0-DD5B-57CB-2A7F0E6E27E0" name="ORDENES">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>FDC0C58E-67CB-3A03-26D3-69558EF6BEC3</generatorID>
@@ -43,7 +43,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CLIENTE_id_cliente" id="026E1B02-18C6-16B5-97C7-66E08F93491C">
+<Column name="CLIENTES_id_cliente" id="026E1B02-18C6-16B5-97C7-66E08F93491C">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>9011FFBF-F1F7-3F78-9534-C715BF40CF84</generatorID>
@@ -59,7 +59,7 @@
 <colAssociation fkAssociation="B86E4180-B030-B234-6F87-464EE426A3BA" referredColumn="FE8C5CBD-6C5C-73AF-A7F9-AF2F6C2D642E"/>
 </associations>
 </Column>
-<Column name="CLIENTE_id_nacional" id="9C0CBF46-DA18-6324-E732-F4FD0DCB68DB">
+<Column name="CLIENTES_id_nacional" id="9C0CBF46-DA18-6324-E732-F4FD0DCB68DB">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>B49AFE9D-0C91-D46D-6A44-3054B5E13084</generatorID>
@@ -75,7 +75,7 @@
 <colAssociation fkAssociation="B86E4180-B030-B234-6F87-464EE426A3BA" referredColumn="BB6F2C36-BFFF-5CE1-D3A1-A63F98FE54EE"/>
 </associations>
 </Column>
-<Column name="SEDE_id_sede" id="C7E996F4-08E1-3FFD-99B8-EB16603F606E">
+<Column name="SEDES_id_sede" id="C7E996F4-08E1-3FFD-99B8-EB16603F606E">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>C324ED4E-C7F9-0091-A7DF-5D7037AD5BB3</generatorID>
@@ -91,7 +91,7 @@
 <colAssociation fkAssociation="38933F0A-A588-A6EF-21C7-6B0A336D003F" referredColumn="62A5335B-CD85-62FC-2B1A-400D444A2A49"/>
 </associations>
 </Column>
-<Column name="PAGO_ORDEN_id_pago_orden" id="56AC8D18-B9A3-EFEA-7F13-DCEAE578EA02">
+<Column name="PAGOS_ORDEN_id_pago_orden" id="56AC8D18-B9A3-EFEA-7F13-DCEAE578EA02">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>66BC870B-B3C7-8610-D330-3DAD87FAC604</generatorID>
@@ -106,7 +106,7 @@
 <colAssociation fkAssociation="9462FA64-2C82-E79E-6A41-9334A506D707" referredColumn="6373073D-A07E-C0E3-26BF-7BC3E9A6454E"/>
 </associations>
 </Column>
-<Column name="ENVIO_id_envio" id="9B284A1E-97D6-96FF-76A5-6526C329C992">
+<Column name="ENVIOS_id_envio" id="9B284A1E-97D6-96FF-76A5-6526C329C992">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>AE79BC8C-A580-C8C9-9B07-26BA73FB5CD7</generatorID>
@@ -157,7 +157,7 @@
 <colUsage columnID="56AC8D18-B9A3-EFEA-7F13-DCEAE578EA02"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="096613F4-8EB7-7250-0DF6-B2844C3E7C43" name="ORDEN_ENVIO_FK">
+<ind_PK_UK id="096613F4-8EB7-7250-0DF6-B2844C3E7C43" name="ORDENES_ENVIOS_FK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>FABFA17E-5966-972C-CBEA-72A1E04FE592</generatorID>
@@ -168,7 +168,7 @@
 <colUsage columnID="9B284A1E-97D6-96FF-76A5-6526C329C992"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E5BB1A59-1753-0D15-DF8B-8379FD3EF7B0" name="ORDEN_SEDE_FK">
+<ind_PK_UK id="E5BB1A59-1753-0D15-DF8B-8379FD3EF7B0" name="ORDENES_SEDES_FK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>6D6F93CD-820D-78B7-DBB0-59B3F9A75CB8</generatorID>
@@ -179,7 +179,7 @@
 <colUsage columnID="C7E996F4-08E1-3FFD-99B8-EB16603F606E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A062BD4C-3946-EB04-6B5D-6E4FD2F0E74F" name="ORDEN_PAGO_ORDEN_FK">
+<ind_PK_UK id="A062BD4C-3946-EB04-6B5D-6E4FD2F0E74F" name="ORDENES_PAGOS_ORDEN_FK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>391B1698-1885-3631-542E-10EFB2AE3C5E</generatorID>
@@ -190,7 +190,7 @@
 <colUsage columnID="56AC8D18-B9A3-EFEA-7F13-DCEAE578EA02"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="875B6AC6-76FC-C454-C0B7-3385D8657A0D" name="ORDEN_CLIENTE_FK">
+<ind_PK_UK id="875B6AC6-76FC-C454-C0B7-3385D8657A0D" name="ORDENES_CLIENTES_FK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>E0466EF1-EB16-B8F2-1D89-86AAA5DD17A7</generatorID>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDA80716-A35F-8E3A-DB07-01F506B1514B" name="PRODUCTO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDA80716-A35F-8E3A-DB07-01F506B1514B" name="PRODUCTOS">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>41BC8FEB-3ED9-DB91-9588-547281889FD6</generatorID>
@@ -115,7 +115,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CATEGORIA_id_categoria" id="FBF0F4AC-8371-C560-795E-E9DEA87997C8">
+<Column name="CATEGORIAS_id_categoria" id="FBF0F4AC-8371-C560-795E-E9DEA87997C8">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>68C298C6-39F0-396F-F276-63AF348EA461</generatorID>
@@ -144,7 +144,7 @@
 <colUsage columnID="97C9F799-AFEE-04A7-4CEF-5856E42845CE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5A9B025E-CD14-DFD2-3773-3A1D18008A70" name="PRODUCTO_CATEGORIA_FK">
+<ind_PK_UK id="5A9B025E-CD14-DFD2-3773-3A1D18008A70" name="PRODUCTOS_CATEGORIAS_FK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>D204D09B-7D27-2D4B-2BEF-17FA336D157C</generatorID>

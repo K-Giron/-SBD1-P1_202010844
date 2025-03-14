@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CAAD24E-68C5-EF49-01F9-D895FD540782" name="EMPLEADO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CAAD24E-68C5-EF49-01F9-D895FD540782" name="EMPLEADOS">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>85875895-2189-156E-875F-6106C018022B</generatorID>
@@ -62,7 +62,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="telefono" id="A4F968C4-7522-9FD4-2097-415C9045798B">
@@ -125,7 +126,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SEDE_id_sede" id="4B2792B6-B006-86C1-E33B-E5609ECF4744">
+<Column name="SEDES_id_sede" id="4B2792B6-B006-86C1-E33B-E5609ECF4744">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>8423ECAB-9F18-2976-382E-0DE87CD57D6A</generatorID>
@@ -140,7 +141,7 @@
 <colAssociation fkAssociation="3097AAC2-60A9-77DD-C07E-F3C0A76BA3E9" referredColumn="62A5335B-CD85-62FC-2B1A-400D444A2A49"/>
 </associations>
 </Column>
-<Column name="DEPARTAMENTO_id_departamento" id="8DB26D64-3DE2-C14E-0571-FC9B19227C7C">
+<Column name="DEPARTAMENTOS_id_departamento" id="8DB26D64-3DE2-C14E-0571-FC9B19227C7C">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>06862CA5-550A-FFE7-3884-9AD72AE07984</generatorID>
@@ -170,7 +171,7 @@
 <colUsage columnID="F03713A6-EF76-27CA-F26C-148497EF3E77"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3EB14373-12B5-C6A7-9F45-26A52DE279F7" name="EMPLEADO_DEPARTAMENTO_FK">
+<ind_PK_UK id="3EB14373-12B5-C6A7-9F45-26A52DE279F7" name="EMPLEADOS_DEPARTAMENTOS_FK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>78691B9A-29F2-4EE2-D556-9B7768345A67</generatorID>
@@ -181,7 +182,7 @@
 <colUsage columnID="8DB26D64-3DE2-C14E-0571-FC9B19227C7C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="36E4AB39-60E7-F7EE-9AE4-2FE40127D7F6" name="EMPLEADO_SEDE_FK">
+<ind_PK_UK id="36E4AB39-60E7-F7EE-9AE4-2FE40127D7F6" name="EMPLEADOS_SEDES_FK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>FF848075-657E-0A7C-2F86-34DEF80054BC</generatorID>

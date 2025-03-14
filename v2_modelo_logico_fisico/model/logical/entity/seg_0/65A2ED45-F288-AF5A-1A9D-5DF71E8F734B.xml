@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65A2ED45-F288-AF5A-1A9D-5DF71E8F734B" name="PRODUCTO_DEVOLUCION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65A2ED45-F288-AF5A-1A9D-5DF71E8F734B" name="PRODUCTOS_DEVOLUCIONES">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-05 04:03:52 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
@@ -50,7 +50,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="solicitado" id="B2BE4249-2D01-A839-0E2A-36924B6CCB4A">
 <createdBy>kevin</createdBy>
@@ -108,14 +109,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3FB90FA9-5A81-58A5-7B39-D0CC005BF93B" name="PRODUCTO_DEVOLUCION PK">
+<identifier id="3FB90FA9-5A81-58A5-7B39-D0CC005BF93B" name="PRODUCT_DEVOL PK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-05 04:04:30 UTC</createdTime>
 <ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="true"/>
+<item key="B3DAB7B4-10D5-EDE5-9CA8-F683A290BF5A" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>724647A8-D645-C722-19E0-27F284FD5A19</newElementsIDs>
 <usedAttributes>
 <attributeRef>724647A8-D645-C722-19E0-27F284FD5A19</attributeRef>
 </usedAttributes>

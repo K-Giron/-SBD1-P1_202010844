@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE21DD2F-C7C6-0BFD-4C31-6AA981BE1384" name="DETALLE_ORDEN">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE21DD2F-C7C6-0BFD-4C31-6AA981BE1384" name="DETALLES_ORDENES">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>0EEE3720-8221-56E6-3488-CFA655466B2B</generatorID>
@@ -65,7 +65,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ORDEN_id_orden" id="C91311A0-1FB0-C9D6-8A12-3E39A2EB313F">
+<Column name="ORDENES_id_orden" id="C91311A0-1FB0-C9D6-8A12-3E39A2EB313F">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>DE3E459B-ED3C-AB5B-BEAC-A9C2DABFBA87</generatorID>
@@ -81,7 +81,7 @@
 <colAssociation fkAssociation="B4799852-A638-2660-2D87-C371CCD03F8D" referredColumn="42F4165E-1459-A503-AD88-3C67CB14B149"/>
 </associations>
 </Column>
-<Column name="PRODUCTO_id_producto" id="E41FA057-7315-97E4-AD08-271ACB04BF98">
+<Column name="PRODUCTOS_id_producto" id="E41FA057-7315-97E4-AD08-271ACB04BF98">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>66C76E83-457E-2FBA-472B-EB371A148C34</generatorID>
@@ -111,7 +111,7 @@
 <colUsage columnID="A6D0AB2C-2DBC-07A4-8DBD-C49502364135"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9C5865AF-502A-B2F6-D014-50AB4B8D4803" name="DETALLE_ORDEN_ORDEN_FK">
+<ind_PK_UK id="9C5865AF-502A-B2F6-D014-50AB4B8D4803" name="DETALLES_ORDENES_ORDENES_FK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>C68294B4-A0F8-DC3E-78D9-F8B95953A224</generatorID>
@@ -122,7 +122,7 @@
 <colUsage columnID="C91311A0-1FB0-C9D6-8A12-3E39A2EB313F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D9400C90-02B8-338A-8FAE-23D06B707BCB" name="DETALLE_ORDEN_PRODUCTO_FK">
+<ind_PK_UK id="D9400C90-02B8-338A-8FAE-23D06B707BCB" name="DETALLES_ORDENES_PRODUCTOS_FK">
 <createdBy>kevin</createdBy>
 <createdTime>2025-03-07 16:09:44 UTC</createdTime>
 <generatorID>E55541E5-F5D2-13E9-9864-D1C969825F71</generatorID>
