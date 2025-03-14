@@ -38,7 +38,7 @@ export class ClientesService {
         };
       }
 
-      // Comprobar si el username ya está registrado
+      // Comprobar si el id nacional ya está registrado
       result = await cnn.execute(checkUsernameSql, {
         id_nacional: id_nacional,
       });
@@ -55,7 +55,7 @@ export class ClientesService {
 
       // Generar un nuevo ID de cliente
       const counClietnSql = `SELECT COUNT(*) AS totalClients FROM CLIENTES`;
-      const newClientSql = `INSERT INTO CLIENTES (ID_CLIENTE, ID_NACIONAL, NOMBRE, APELLIDO, TELEFONO, EMAIL, ACTIVO, EMAIL_CONFIRMADO, PASSWORD) VALUES (:id_cliente, :id_nacional, :nombre, :apellido, :telefono, :email, :activo, :email_confirmado, :password)`;
+      const newClientSql = `INSERT INTO CLIENTES (ID_CLIENTE, ID_NACIONAL, NOMBRE, APELLIDO, TELEFONO, EMAIL, ACTIVO, EMAIL_CONFIRMADO, PASSWORD,CREADO) VALUES (:id_cliente, :id_nacional, :nombre, :apellido, :telefono, :email, :activo, :email_confirmado, :password,:creado)`;
 
       // Obtener el número de clientes
       let newClientResult = await cnn.execute(counClietnSql);
@@ -72,6 +72,7 @@ export class ClientesService {
         activo,
         email_confirmado,
         password: hashedPassword, // Usamos la contraseña hasheada
+        creado: new Date(),
       });
 
       await cnn.commit();
@@ -107,7 +108,7 @@ export class ClientesService {
   //localhost:3000/clientes/id
   async findOne(id: number) {
     try {
-      const sql = `SELECT id_cliente, id_nacional,nombre,apellido,email,activo,creado FROM CLIENTES WHERE id_cliente = :id`;
+      const sql = `SELECT id_cliente, id_nacional,nombre,apellido,email,activo,creado,modificado FROM CLIENTES WHERE id_cliente = :id`;
       const cnn = await sdbConnection();
       const result = await cnn.execute(sql, { id });
       cnn.close();
@@ -132,6 +133,7 @@ export class ClientesService {
           email: row.EMAIL,
           activo: row.ACTIVO,
           creado: row.CREADO,
+          modificado: row.MODIFICADO,
         },
       };
     } catch (error) {
@@ -191,6 +193,9 @@ export class ClientesService {
           }
           sql += `${columnName} = :${key}, `;
           params[key] = fieldsToUpdate[key];
+          //actualizar la fecha de modificación
+          sql += `MODIFICADO = :modificado, `;
+          params.modificado = new Date();
         }
       }
       // Remover la última coma y espacio, y agregar la cláusula WHERE
