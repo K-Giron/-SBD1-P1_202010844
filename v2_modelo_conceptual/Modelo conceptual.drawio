@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
   <diagram name="Página-1" id="fdRy8exkDGa6AhzQUCQz">
-    <mxGraphModel dx="2103" dy="1823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2170" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -774,9 +774,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u-t4m7sH7K-MMYJhc7aQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rqDRrIek9EEaIk5kHPsR-237" target="u-t4m7sH7K-MMYJhc7aQ-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="rqDRrIek9EEaIk5kHPsR-237" value="PAGO_ORDEN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1497.88" y="132.5" width="150" height="40" as="geometry" />
         </mxCell>
@@ -911,7 +908,7 @@
           <mxGeometry x="1497.88" y="35" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="rqDRrIek9EEaIk5kHPsR-299" value="status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="1672.5" y="25" width="50" height="30" as="geometry" />
+          <mxGeometry x="1610" y="10" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rqDRrIek9EEaIk5kHPsR-300" value="creado" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="1694.13" y="65" width="58" height="27.5" as="geometry" />
@@ -1008,9 +1005,6 @@
         </mxCell>
         <mxCell id="rqDRrIek9EEaIk5kHPsR-342" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.899;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rqDRrIek9EEaIk5kHPsR-340" target="rqDRrIek9EEaIk5kHPsR-110" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="u-t4m7sH7K-MMYJhc7aQ-1" value="total" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1570" y="-5" width="90" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
